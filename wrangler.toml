@@ -1,0 +1,4 @@
+name = "enrolla-quiz-api"
+main = "src/index.ts"
+compatibility_date = "2024-10-01"
+type = "javascript"

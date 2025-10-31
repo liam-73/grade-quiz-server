@@ -1,0 +1,19 @@
+{
+  "name": "enrolla-quiz-api",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev src/index.ts",
+    "build": "tsc",
+    "publish": "wrangler publish"
+  },
+  "dependencies": {
+    "hono": "^3.0.0",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.2",
+    "typescript": "^5.2.0",
+    "wrangler": "^4.45.3"
+  }
+}
